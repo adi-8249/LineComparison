@@ -2,11 +2,14 @@
 
 namespace LineComparision
 {
-    class Program
+  public  class Program
     {
-        static void Main(string[] args)
+       public static void Main(string[] args)
         {
             Console.WriteLine("Welcome to line Comparision Program");
+            LengthComputation length = new LengthComputation();
+            length.Findlength(2,20,2,20);
+
         }
     }
 }
