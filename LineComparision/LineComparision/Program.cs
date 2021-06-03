@@ -22,6 +22,20 @@ namespace LineComparision
                 Console.WriteLine("lines are not equal");
             }
 
-        }
+            if (FirstLine == Secondline)
+            {
+                Console.WriteLine("both lines are same");
+            }
+            else if(FirstLine > Secondline)
+            {
+                Console.WriteLine("first line is greater than secondline");
+            }
+            else
+            {
+                Console.WriteLine("firstline is less than secondline ");
+            }
+
+          }
+
     }
 }
