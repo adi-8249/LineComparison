@@ -4,10 +4,15 @@ using System.Text;
 
 namespace LineComparision
 {
-  public  class LengthComputation
+    public abstract class length
+    {
+        public abstract double Findlength(int x1, int x2, int y1, int y2);
+    }
+  public  class LengthComputation : length
     {
         double Distance;
-        public double Findlength(int x1, int x2, int y1, int y2)
+
+        public override double Findlength(int x1, int x2, int y1, int y2)
         {
             Distance = Math.Sqrt(Math.Pow(x2 - x1,2) + Math.Pow(y2 - y1,2));
 
