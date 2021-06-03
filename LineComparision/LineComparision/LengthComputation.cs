@@ -13,7 +13,7 @@ namespace LineComparision
 
             Console.WriteLine("Line length is " +Distance);
             return Distance;
+        } 
 
-        }
     }
 }
